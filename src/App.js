@@ -1,18 +1,23 @@
 //import logo from './logo.svg';
 import './App.css';
-import { Button } from '@mui/material';
-import { Stack } from '@mui/system';
+import { Button, Box} from '@mui/material';
+import { Stack} from '@mui/system';
 
 function App() {
   return (
-    <Stack spacing={2} direction='row'>
-      <Button variant='contained' color='primary'>
+    <Box textAlign='center'>
+    <Stack display='block' spacing={2} direction='row'>
+      
+        <Button variant='contained' color='primary'size='small'>
         Text
-      </Button>
-      <Button variant='contained' color='secondary'>
-        Text2
-      </Button>
+        </Button>
+        <Button variant='contained' color='secondary' size='small'>
+          Text2
+        </Button>
+      
+      
     </Stack>
+    </Box>
   );
 }
 
