@@ -11,7 +11,7 @@ function App() {
 
     </TextField>
         <Button variant='contained' color='primary'size='small'>
-        Button
+        Text
         </Button>
         <Button variant='contained' color='secondary' size='small'>
           Text2
